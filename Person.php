@@ -64,7 +64,7 @@ class Person
         she is " . $this->getFather()->getMother()->getAge() . "years old"  . " <br>
         my maternal grandfather  is:" . $this->getMother()->getFather()->getName() . "<br>
         my maternal grandfathers lastname is: " . $this->getMother()->getFather()->getLastname() . " <br> 
-        he is " . $this->getFather()->getFather()->getAge() . "years old" . "<br> 
+        he is " . $this->getMother()->getFather()->getAge() . "years old" . "<br> 
         my maternal grandmother  is:" . $this->getMother()->getMother()->getName() . "<br>
         my maternal grandmothers lastname is: " . $this->getMother()->getMother()->getLastname() . " <br> 
         she is " . $this->getMother()->getMother()->getAge() . "years old" ;
